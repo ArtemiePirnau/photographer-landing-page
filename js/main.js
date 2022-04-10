@@ -1,0 +1,1 @@
+$(".portofolio-images__item").hover(function(){$(this).find(".portofolio__items-info").toggleClass("active"),$(this).find(".portofolio__items-text").toggleClass("active")}),$(window).on("scroll",function(){0<$(window).scrollTop()?$(".header").addClass("active"):$(".header").removeClass("active")});
